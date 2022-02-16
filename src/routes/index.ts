@@ -9,3 +9,5 @@ export const route = Router();
 
 route.get('/',baseController.getStatus)
 route.post('/',baseController.setStatus)
+route.get('/users',baseController.getUsersList)
+route.post('/users',baseController.setNewUser)
