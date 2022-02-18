@@ -16,6 +16,7 @@ mysql://USER:PASSWORD@HOST:PORT/DATABASE
 
 $npx prisma migrate dev --name init
 * if the tables are not created, run again the former line
+
 $npm install @prisma/client
 
 $npm run dev
